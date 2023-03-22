@@ -60,5 +60,20 @@ public class Main {
             }
         }
     }
+    /*--------------------------
+     *---Array from W3schools---
+     *--------------------------
+     */
+    String[] cars;
+    String[] cars1 = {"Volvo", "BMW", "Ford", "Mazda"};
+    int[] myNum = {10, 20, 30, 40};
+    System.out.println(cars1[0]);
+    // cars[1] = "ACCENT"; Error
+    cars1[0] = "ACCENT";
+    System.out.println(cars1.length);
+
+
+    int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+    System.out.println(myNumbers[0][1]);
   }  
 }
