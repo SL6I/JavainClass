@@ -75,5 +75,29 @@ public class Main {
 
     int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
     System.out.println(myNumbers[0][1]);
-  }  
-}
+    //-----------------------------
+    // Now lets go to JavaPoint
+
+    // dataType[] arr; (or)  
+    // dataType []arr; (or)  
+    // dataType arr[];  
+    //Java Program to demonstrate the way of passing an array  
+//to method.
+int a1[]={33,3,4,5};//declaring and initializing an array  
+min(a1);//passing array to method    
+
+  }
+    //creating a method which receives an array as a parameter  
+    static void min(int arr[]){  
+    int min=arr[0];  
+    for(int i=1;i<arr.length;i++)  
+     if(min>arr[i])  
+      min=arr[i];  
+      
+    System.out.println(min);  
+    }  
+      
+    
+    } 
+  
+
