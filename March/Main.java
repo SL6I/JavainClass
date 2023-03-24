@@ -95,6 +95,47 @@ min(a1);//passing array to method
       min=arr[i];  
       
     System.out.println(min);  
+
+    // Copy array from another array
+    int[] b = {1,2,3};
+    int[] c = new int[b.length];
+    for(int i = 0;i<b.length;i++){
+        c[i] = b[i];
+    }
+    for(int i = 0;i<c.length;i++){
+        System.out.println(c[i]);
+    }
+// Didn't finish
+    int[] y = {1,2,3,4,1,2,3,2,1,2,1,2};
+    // int counter = 1;
+    for(int i = 0;i<y.length;i++){
+        int counter = 1;
+        for(int j = i+1;j<y.length;j++){
+            if(y[i] == y[j]){
+                counter++;
+            }
+            else{
+
+            }
+        }
+        System.out.println("This number "+y[i]+" Has repeated "+counter);
+    }
+
+    // Largest Number in array
+    int L[] = {22,5,9,10,11,15,1,2,4,19,1,3,24};
+    int op = L[0];
+    for(int i = 0;i<L.length;i++){
+        // op = L[i];
+        if(op < L[i]){
+            op = L[i];
+        }
+        else{
+
+        }
+
+
+    }
+    System.out.println(op);
     }  
       
     
