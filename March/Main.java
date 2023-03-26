@@ -136,6 +136,8 @@ min(a1);//passing array to method
 
     }
     System.out.println(op);
+    int[][] test = new int[2][10];
+    System.out.println(test[0].length);
     }  
       
     
