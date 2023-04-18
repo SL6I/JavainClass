@@ -25,7 +25,7 @@ public class testArray {
         int[][] clonedArray = originalArray.clone();
         
         // This will affect the originalArray, as the clonedArray is a shallow copy of the outer array.
-        clonedArray[0][0] = 10; // Now, originalArray[0][0] will also be 10.
+        clonedArray[0][0]= 10; // Now, originalArray[0][0] will also be 10.
         
         // However, the inner single-dimensional arrays are deep copied.
         clonedArray[0] = new int[] {5, 6}; // This will not affect the originalArray.
