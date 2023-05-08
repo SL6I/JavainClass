@@ -21,9 +21,9 @@ public class Main {
     kk[1][0] = 1000;
     // kk[0][2] = 111;
     System.out.println(a);
-    int i[] = {1,2,3};
-    int e[] = i;
-    System.out.println(i == e); 
+    int iii[] = {1,2,3};
+    int e[] = iii;
+    System.out.println(iii == e); 
     String d = "S";
     String q = "S";
     System.out.println(q == d);
@@ -33,7 +33,7 @@ public class Main {
     // System.out.println(j); Error
 
     // Array in mwthods
-
+//
 
     // ----------------------------------
     // -------At home from slides--------
@@ -49,17 +49,18 @@ public class Main {
         System.out.println(j);
     }
 
-    int ttt[] = {-1,2,4,5,7,1101,-3,0};
-    for(int t = 0;t<ttt.length;t++){
-        for(int w = t+1;w<ttt.length;w++){
+    int array[] = {-1,2,4,5,7,1101,-3,0};
+    for(int i = 0;i<array.length;i++){
+        for(int j = i+1;j<array.length;j++){
             int tmp = 0;
-            if(ttt[t]>ttt[w]){
-                ttt[t] = ttt[w];
-                tmp = ttt[t];
+            if(array[i]>array[j]){
+                array[i] = array[j];
+                tmp = array[i];
                 
             }
         }
     }
+    // System.out.println("############# "+tmp);
     /*--------------------------
      *---Array from W3schools---
      *--------------------------
